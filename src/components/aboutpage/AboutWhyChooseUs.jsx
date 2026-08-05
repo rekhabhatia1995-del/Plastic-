@@ -54,7 +54,7 @@ function AboutWhyChooseUs() {
       <div className="w-full mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-8">
-          <p className="text-[#86BC25] font-bold uppercase tracking-wider text-sm font-weigth-">
+          <p className="text-lime-500 font-bold uppercase tracking-wider text-sm font-weigth-">
             WHY CHOOSE US
           </p>
 
@@ -62,7 +62,7 @@ function AboutWhyChooseUs() {
             <span className="text-[#173C7A]">
               Quality Products,
             </span>{" "}
-            <span className="text-[#86BC25]">
+            <span className="text-lime-500">
               Trusted Service
             </span>
           </h2>

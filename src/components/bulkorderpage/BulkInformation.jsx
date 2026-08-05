@@ -44,7 +44,7 @@ const BulkInformation = () => {
             5. BULK ORDER INFORMATION
           </h2>
 
-          <div className="w-16 h-1 bg-green-500 rounded-full mx-auto mt-3"></div>
+          <div className="w-16 h-1 bg-lime-500 rounded-full mx-auto mt-3"></div>
         </div>
 
         {/* Information Cards */}

@@ -25,7 +25,7 @@ export default function CompanyIntro() {
 
           {/* Right Content */}
           <div className="text-left">
-            <p className="text-[#86BC25] text-sm font-bold uppercase tracking-wider">
+            <p className="text-lime-500 text-sm font-bold uppercase tracking-wider">
               WHO WE ARE
             </p>
 
@@ -33,7 +33,7 @@ export default function CompanyIntro() {
               <span className="block text-[#173C7A]">
                 Your Trusted Partner in
               </span>
-              <span className="block text-[#86BC25]">
+              <span className="block text-lime-500">
                 Plastic Products
               </span>
             </h2>
@@ -58,7 +58,7 @@ export default function CompanyIntro() {
                   key={index}
                   className="border border-gray-200 rounded-xl p-6 bg-white h-[170px] flex flex-col"
                 >
-                 <div className="flex justify-center text-[#86BC25]">
+                 <div className="flex justify-center text-lime-500">
                 {item.icon}
                 </div>
 

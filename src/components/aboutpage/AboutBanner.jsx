@@ -12,16 +12,16 @@ const features = [
 
 function AboutBanner() {
   return (
-    <section className="relative overflow-hidden bg-white py-4">
+    <section className="relative overflow-hidden bg-white py-0">
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white via-cyan-50 to-sky-100"></div>
       <div className="w-full mx-auto px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
           <div className="text-left">
-            <p className="text-[#69B42D] uppercase tracking-[4px] font-bold text-sm mb-4">About Us</p>
+            <p className="text-lime-500 uppercase tracking-[4px] font-bold text-sm mb-4">About Us</p>
 
             <h1 className="font-extrabold leading-tight">
               <span className="block text-[#14356C] text-4xl md:text-5xl lg:text-6xl">Delivering Quality</span>
-              <span className="block text-[#69B42D] text-4xl md:text-5xl lg:text-6xl">Plastic Solutions</span>
+              <span className="block text-lime-500 text-4xl md:text-5xl lg:text-6xl">Plastic Solutions</span>
               <span className="block text-[#14356C] text-4xl md:text-5xl lg:text-6xl">Since 2015</span>
             </h1>
 
@@ -33,7 +33,7 @@ function AboutBanner() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
               {features.map((item) => (
                 <div key={item.id} className="flex items-start gap-3">
-                  <div className="text-[#69B42D] text-3xl">{item.icon}</div>
+                  <div className="text-lime-500 text-3xl">{item.icon}</div>
                   <div>
                     <h4 className="text-[#14356C] font-semibold text-sm">{item.title}</h4>
                     <p className="text-xs text-gray-500 mt-1">{item.desc}</p>

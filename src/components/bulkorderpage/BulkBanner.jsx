@@ -20,7 +20,7 @@ const BulkBanner = () => {
               Bulk Order
             </h1>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green-500 mt-2">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-lime-500 mt-2">
               Solutions
             </h2>
 

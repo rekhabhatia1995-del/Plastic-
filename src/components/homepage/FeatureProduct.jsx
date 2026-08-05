@@ -88,9 +88,9 @@ function FeatureProduct() {
     <section className="mt-5 px-5">
       {/* Heading */}
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-lime-500 text-base sm:text-lg md:text-xl font-semibold">
+        <h2 className="text-blue-950 text-base sm:text-lg md:text-xl font-semibold">
           FEATURE PRODUCT
-        </h1>
+        </h2>
 
         <button className="text-xs sm:text-sm font-semibold bg-[#0b1b4d] text-white rounded-xl w-24 sm:w-26 p-2 h-9 sm:h-10 hover:text-green-600">
           View All →

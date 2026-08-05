@@ -58,13 +58,13 @@ function Industries() {
 
         {/* Heading */}
         <div className="text-center">
-          <p className="text-[#86BC25] text-sm font-bold uppercase">
+          <p className="text-lime-500 text-sm font-bold uppercase">
             OUR PRODUCTS
           </p>
 
           <h2 className="mt-1 text-4xl font-bold">
             <span className="text-[#173C7A]">Serving Multiple </span>
-            <span className="text-[#86BC25]">Industries</span>
+            <span className="text-lime-500">Industries</span>
           </h2>
         </div>
 
@@ -96,7 +96,7 @@ function Industries() {
             containers to household products – we have it all!
           </p>
 
-          <button className="bg-[#86BC25] hover:bg-[#73a61f] text-white px-6 py-3 rounded-md font-medium transition">
+          <button className="bg-lime-500 hover:bg-[#73a61f] text-white px-6 py-3 rounded-md font-medium transition">
             View All Products →
           </button>
 

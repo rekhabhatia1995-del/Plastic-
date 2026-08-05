@@ -9,10 +9,11 @@ function ProductBanner() {
         <div className="p-4 max-w-[1440px] mx-auto">
 
           {/* Top Banner */}
-          <div className="grid lg:grid-cols-2 gap-6 md:gap-10 items-center">
+<div className="grid lg:grid-cols-2 gap-6 md:gap-10 items-start">
 
-            {/* Left */}
-            <div className="mb-0 md:mb-14 ml-0 sm:ml-4">
+{/* Left */}
+<div className="mb-0 ml-0 sm:ml-4 mt-6"
+>
               <p className="text-gray-500 text-sm ">
                 Home &nbsp; {">"} &nbsp; Products
               </p>
@@ -33,7 +34,7 @@ function ProductBanner() {
              <img
                src={removebg}
                alt="Remove Background"
-               className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] mt-4 h-auto object-contain"
+className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] h-86 object-contain"
              />
             </div>
           </div>

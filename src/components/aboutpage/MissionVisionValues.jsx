@@ -16,7 +16,7 @@ function MissionVisionValues() {
             </div>
 
             <div className="mb-1">
-              <h4 className="text-[#86BC25] text-sm font-bold uppercase mb-3">
+              <h4 className="text-lime-500 text-sm font-bold uppercase mb-3">
                 Our Mission
               </h4>
 
@@ -37,7 +37,7 @@ function MissionVisionValues() {
             </div>
 
             <div>
-              <h4 className="text-[#86BC25] text-sm font-bold uppercase mb-3">
+              <h4 className="text-lime-500 text-sm font-bold uppercase mb-3">
                 Our Vision
               </h4>
 
@@ -58,7 +58,7 @@ function MissionVisionValues() {
             </div>
 
             <div>
-              <h4 className="text-[#86BC25] text-sm font-bold uppercase mb-3">
+              <h4 className="text-lime-500 text-sm font-bold uppercase mb-3">
                 Our Values
               </h4>
 

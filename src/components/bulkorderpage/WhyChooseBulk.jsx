@@ -51,7 +51,7 @@ const WhyChooseBulk = () => {
             1. WHY CHOOSE BULK ORDER?
           </h2>
 
-          <div className="w-16 h-1 bg-green-500 rounded-full mx-auto mt-3"></div>
+          <div className="w-16 h-1 bg-lime-500 rounded-full mx-auto mt-3"></div>
         </div>
 
         {/* Cards */}
@@ -62,7 +62,7 @@ const WhyChooseBulk = () => {
               key={index}
               className="bg-white border border-gray-200 rounded-lg p-4 text-center transition-all duration-300 hover:shadow-lg"
             >
-              <div className="flex justify-center mb-5 text-green-600 text-5xl">
+              <div className="flex justify-center mb-5 text-lime-500 text-5xl">
                 {item.icon}
               </div>
 

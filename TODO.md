@@ -1,3 +1,10 @@
+# TODO
+
+- [x] 1. Add `path` to each item in the `navLinks` array in `src/components/Header.jsx`
+- [x] 2. Add a "Catagery" menu item (path `/catageries`) to the side menu
+- [x] 3. Replace the `<button>` in the side menu `<li>` items with `<Link>` that navigates to the route and closes the menu on click
+- [x] 4. Verify the changes render correctly (build successful ✅)
+
 # Home Page - Responsive Fixes ✅
 
 ## Completed Changes

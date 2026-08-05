@@ -10,7 +10,7 @@ function WhyChoose() {
   return (
     <section className="py-16 bg-gradient-to-r from-blue-50">
       <div className=" px-5">
-        <h1 className="text-3xl font-bold text-center mb-8 text-blue-900 tracking-tight">Why Choose Ocean Plastic Industries?</h1>
+        <h2 className="text-xl font-bold text-center mb-8 text-blue-950 tracking-tight">Why Choose Ocean Plastic Industries?</h2>
         <div className="grid md:grid-cols-2 gap-10">
           <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-bold mb-6 text-blue-800 tracking-tight text-left">Our Advantages</h2>

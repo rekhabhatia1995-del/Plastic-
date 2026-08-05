@@ -23,14 +23,14 @@ function Infrastructure() {
         {/* Left Content */}
 <div className="flex flex-col items-start">
 
-  <p className="text-[#86BC25] text-sm font-bold uppercase mb-8">
+  <p className="text-lime-500 text-sm font-bold uppercase mb-8">
     OUR INFRASTRUCTURE
   </p>
 
   <h2 className="mt-2 text-3xl md:text-4xl font-bold leading-tight text-left">
     <span className="text-[#173C7A]">Built on Technology,</span>
     <br />
-    <span className="text-[#86BC25]">Driven by Innovation</span>
+    <span className="text-lime-500">Driven by Innovation</span>
   </h2>
 
   <p className="mt-5 text-gray-600 leading-7 text-left">

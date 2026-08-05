@@ -98,11 +98,11 @@ function PopularCategories() {
           <div className="w-20 h-1 bg-lime-500 rounded-full mx-auto mt-2"></div>
         </div>
 
-        <div className="relative">
-          {/* Left Arrow */}
+<div className="relative">
+{/* Left Arrow */}
           <button
             onClick={goPrev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-5 z-20 w-10 h-10 rounded-full bg-white shadow-lg border hover:bg-lime-500 hover:text-white"
+className="absolute left-0 top-[45%] -translate-y-1/2 -translate-x-5 z-20 w-10 h-10 rounded-full bg-white shadow-lg border hover:bg-lime-500 hover:text-white"
           >
             <FaArrowLeft className="mx-auto" />
           </button>
@@ -164,10 +164,10 @@ function PopularCategories() {
             </div>
           </div>
 
-          {/* Right Arrow */}
+{/* Right Arrow */}
           <button
             onClick={goNext}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5 z-20 w-10 h-10 rounded-full bg-white shadow-lg border hover:bg-lime-500 hover:text-white"
+className="absolute right-0 top-[45%] -translate-y-1/2 translate-x-5 z-20 w-10 h-10 rounded-full bg-white shadow-lg border hover:bg-lime-500 hover:text-white"
           >
             <FaArrowRight className="mx-auto" />
           </button>

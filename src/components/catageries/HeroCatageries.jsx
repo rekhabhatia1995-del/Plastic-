@@ -9,16 +9,16 @@ function HeroCatageries() {
       <section className="bg-gradient-to-r from-blue-50 to-white text-left rouned-xl">
         <div className="p-2 max-w-[1440px] mx-auto">
 
-          {/* Top Banner */}
-          <div className="grid lg:grid-cols-2 gap-6 items-center">
+{/* Top Banner */}
+          <div className="grid lg:grid-cols-2 gap-6 items-start">
 
-            {/* Left */}
-            <div className="mb-0 ml-0 sm:ml-4">
-              <p className="text-gray-500 text-sm mt-4">
+{/* Left */}
+            <div className="mb-0 ml-0 sm:ml-4 mt-6">
+              <p className="text-gray-500 text-sm mt-2">
                 Home &nbsp;{">"}&nbsp; Products&nbsp;{">"}&nbsp;Plastic Container
               </p>
 
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0B3B8C] mb-5">
+              <h1 className="text-3xl sm:text-4xl md:text-2xl font-bold text-[#0B3B8C] mb-5">
                 Plastic Container
               </h1>
 
@@ -40,7 +40,7 @@ function HeroCatageries() {
              <img
                src={removebg}
                alt="Remove Background"
-               className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] mt-4 h-auto object-contain mb-4"
+               className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] mt-4 h-86 object-contain mb-4"
              />
             </div>
           </div>
@@ -48,13 +48,13 @@ function HeroCatageries() {
       </section>
 
 
-     <section className="p-2 mt-2 relative z-10">
-  <div className="max-w-[1440px] mx-auto">
-    <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+     <section className="  relative z-10">
+  <div className="">
+    <div className="bg-white   overflow-hidden shadow ">
       <div className="grid grid-cols-2 lg:grid-cols-4">
 
         {/* Products */}
-        <div className="flex items-center gap-4 p-2 border-b lg:border-b-0 lg:border-r border-gray-200 hover:bg-gray-50 transition-all duration-300">
+        <div className="flex justify-center items-center gap-4  p-4 border-b lg:border-b-0 lg:border-r border-gray-200 hover:bg-gray-50 transition-all duration-300">
           <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-lime-100 flex items-center justify-center">
             <FaBoxOpen className="text-lime-600 text-xl sm:text-3xl" />
           </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaPhoneAlt, FaEnvelope, FaShippingFast, FaReceipt, FaSearch, FaHeart, FaShoppingCart, FaUser, FaBars, FaTimes, FaHome, FaInfoCircle, FaBox, FaCogs, FaClipboardList, FaBlog, FaTags, FaPhoneAlt as FaPhoneContact } from "react-icons/fa";
 import logo from "../assets/images/logo.png";
-import { Link } from "react-router-dom";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ function Header() {
         { name: "Catagery", icon: <FaTags />, path: "/catageries" },
         { name: "Bulk Order", icon: <FaClipboardList />, path: "/bulkorder" },
         { name: "Blog", icon: <FaBlog />, path: "/" },
-        { name: "Contact", icon: <FaPhoneContact />, path: "/" },
+        { name: "Contact", icon: <FaPhoneContact />, path: "/contact" },
     ];
 
     return (
@@ -54,7 +54,7 @@ function Header() {
 
 
 
-                <div className="flex items-center shadow-xl rounded-xl overflow-hidden flex-1 max-w-[150px] sm:max-w-[300px] md:max-w-[500px] h-10 md:h-12 shadow-sm focus-within:ring-2 focus-within:ring-green-500">
+                <div className="flex items-center shadow-sm rounded-xl overflow-hidden flex-1 max-w-[150px] sm:max-w-[300px] md:max-w-[500px] h-10 md:h-12 shadow-sm focus-within:ring-2 focus-within:ring-green-500">
 
                     <input
                         type="text"
@@ -131,26 +131,25 @@ function Header() {
             <div className="hidden lg:flex justify-between items-center  ">
                 <ul className="gap-6 lg:gap-10 xl:gap-40 font-medium bg-[#0b1b4d] text-white flex w-full p-2 lg:p-4 h-12 justify-center items-center">
                     <li className="hover:text-green-600 cursor-pointer ml-2  text-xs lg:text-sm font-semibold uppercase whitespace-nowrap">
-                     <a href="/">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li className="hover:text-green-600 cursor-pointer text-xs lg:text-sm font-semibold uppercase whitespace-nowrap">
-                       <a href="/about">About</a>
-                    </li>                  
-                    
+                        <a href="/about">About</a>
+                    </li>
+
                     <li className="hover:text-green-600 cursor-pointer  text-xs lg:text-sm font-semibold uppercase whitespace-nowrap">
-                       <a href="/product">Product</a>
+                        <a href="/product">Product</a>
                     </li>
                     <li className="hover:text-green-600 cursor-pointer  text-xs lg:text-sm font-semibold uppercase whitespace-nowrap">
                         <a href="/catageries">Catagery</a>
                     </li>
-                   <Link   to="/bulkorder" className="hover:text-green-600 cursor-pointer text-xs lg:text-sm font-semibold uppercase whitespace-nowrap"
+                    <Link to="/bulkorder" className="hover:text-green-600 cursor-pointer text-xs lg:text-sm font-semibold uppercase whitespace-nowrap"
                     >Bulk Order</Link>
                     <li className="hover:text-green-600 cursor-pointer  text-xs lg:text-sm font-semibold uppercase whitespace-nowrap">
                         Blog
                     </li>
-                    <li className="hover:text-green-600  mr-4 cursor-pointer text-xs lg:text-sm font-semibold uppercase whitespace-nowrap">
-                        Contact
-                    </li>
+                    <Link to="/contact" className="hover:text-green-600 cursor-pointer text-xs lg:text-sm font-semibold uppercase whitespace-nowrap"
+                    >Contact </Link>
                 </ul>
             </div>
 
@@ -179,7 +178,7 @@ function Header() {
 
                         <nav className="p-4">
                             <ul className="space-y-1">
-{navLinks.map((link, index) => (
+                                {navLinks.map((link, index) => (
                                     <li key={index}>
                                         <Link
                                             to={link.path}
@@ -212,3 +211,4 @@ function Header() {
 }
 
 export default Header;
+

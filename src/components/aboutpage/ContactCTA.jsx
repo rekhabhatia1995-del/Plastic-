@@ -15,7 +15,7 @@ function ContactCTA() {
 
               <h2 className="text-3xl md:text-4xl font-bold text-white">
                 Let's Work{" "}
-                <span className="text-[#86BC25]">Together</span>
+                <span className="text-lime-500">Together</span>
               </h2>
 
               <p className="mt-4 text-gray-200 leading-7">
@@ -24,7 +24,7 @@ function ContactCTA() {
                 Get in touch with us today!
               </p>
 
-              <button className="mt-6 bg-[#86BC25] hover:bg-[#75A91F] text-white px-6 py-3 rounded-md font-semibold transition">
+              <button className="mt-6 bg-lime-500 hover:bg-[#75A91F] text-white px-6 py-3 rounded-md font-semibold transition">
                 Contact Us →
               </button>
 

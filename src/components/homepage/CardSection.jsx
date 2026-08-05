@@ -18,7 +18,7 @@ function CardSection() {
   }, []);
   return (
     <section className="py-8 px-4 text-left">
-      <h1 className="text-blue-500 text-lg md:text-xl lg:text-2xl italic text-center font-semibold">SHOP BY CATEGORIES</h1>
+      <h2 className="text-blue-950 text-lg md:text-xl lg:text-2xl italic text-center font-semibold">SHOP BY CATEGORIES</h2>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-3 md:gap-4 mt-6">
         {categories.map((item, index) => (
           <div key={index} className="text-center  shadow rounded-xl hover:shadow-lg p-3 transition-shadow duration-300 bg-white">

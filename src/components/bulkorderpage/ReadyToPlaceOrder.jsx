@@ -8,6 +8,7 @@ import {
   FiTruck,
   FiPackage,
 } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const contactData = [
   {
@@ -81,7 +82,7 @@ const ReadyToPlaceOrder = () => {
               key={index}
               className="border border-gray-200  rounded-lg p-6 text-center hover:shadow-md"
             >
-              <div className="text-5xl text-green-500 flex justify-center mb-4">
+              <div className="text-5xl text-lime-500 flex justify-center mb-4">
                 {item.icon}
               </div>
 
@@ -99,9 +100,9 @@ const ReadyToPlaceOrder = () => {
         {/* Button */}
 
         <div className="flex justify-center mt-4">
-          <button className="bg-[#0A2D62] hover:bg-[#123b7a] text-white px-8 py-3 rounded-md font-semibold transition">
+          <Link to="/contact" className="bg-[#0A2D62] hover:bg-[#123b7a] text-white px-8 py-3 rounded-md font-semibold transition">
             REQUEST A QUOTE NOW
-          </button>
+          </Link>
         </div>
 
         {/* Bottom Features */}
@@ -115,7 +116,7 @@ const ReadyToPlaceOrder = () => {
                 key={index}
                 className="flex items-center justify-center gap-3"
               >
-                <div className="text-3xl text-green-600">
+                <div className="text-3xl text-lime-500">
                   {item.icon}
                 </div>
 

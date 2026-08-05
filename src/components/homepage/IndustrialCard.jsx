@@ -15,12 +15,12 @@ const categories = [
 function IndustrialCard() {
   return (
     <section className="py-8 px-5 max-w-[1440px] mx-auto">
-      <h1 className="text-2xl font-bold text-gray-800 mb-6 text-left ">INDUSTRIAL SOLUTIONS</h1>
+      <h2 className="text-lg font-bold text-gray-800 mb-6 text-left ">INDUSTRIAL SOLUTIONS</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 mt-2">
         {categories.map((item, index) => (
           <div key={index} className="text-center bg-white shadow-sm p-4 rounded">
             <div className="text-4xl mb-3">{item.icon}</div>
-            <h2 className="text-sm font-semibold text-gray-700 tracking-tight">{item.title}</h2>
+            <h2 className="text-sm font-semibold text-gray-700 ">{item.title}</h2>
             <p className="text-xs text-gray-500 mt-2 leading-relaxed">{item.desc}</p>
           </div>
         ))}

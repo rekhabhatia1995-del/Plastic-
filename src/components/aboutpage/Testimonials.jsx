@@ -33,7 +33,7 @@ function Testimonials() {
         {/* Heading */}
         <div className="text-center mb-8">
 
-          <p className="text-[#86BC25] text-sm font-bold uppercase">
+          <p className="text-lime-500 text-sm font-bold uppercase">
             WHAT OUR CLIENTS SAY
           </p>
 
@@ -41,7 +41,7 @@ function Testimonials() {
             <span className="text-[#173C7A]">
               Trusted by Businesses
             </span>{" "}
-            <span className="text-[#86BC25]">
+            <span className="text-lime-500">
               Worldwide
             </span>
           </h2>
@@ -60,7 +60,7 @@ function Testimonials() {
               {/* Top */}
               <div className="flex justify-between items-center">
 
-                <div className="flex gap-1 text-[#86BC25]">
+                <div className="flex gap-1 text-lime-500">
                   <FaStar size={14} />
                   <FaStar size={14} />
                   <FaStar size={14} />

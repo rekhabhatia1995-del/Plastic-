@@ -106,7 +106,7 @@ className="bg-white w-full h-56 sm:h-64 mt-4 rounded-xl shadow-lg overflow-hidde
 <img
 src={item.image}
 alt={item.name}
-className="w-full h-32 sm:h-40 object-cover"
+className="w-full rounded-full h-32 sm:h-40 object-cover"
 />
 
 
@@ -123,7 +123,7 @@ className="w-full h-32 sm:h-40 object-cover"
 </p>
 
 
-<button className="mt-1 bg-blue-950 text-white text-[10px] sm:text-[12px] px-2 sm:px-3 py-1 rounded-xl">
+<button className="mt-1 bg-blue-950 w-26 text-white text-[10px] sm:text-[12px] px-2 sm:px-3 py-1 rounded-xl">
 View
 </button>
 
@@ -209,7 +209,7 @@ NEW
 <img
 src={item.image}
 alt={item.name}
-className="w-full h-32 sm:h-40 object-cover group-hover:scale-110 transition"
+className="w-full  rounded-full h-32 sm:h-40 object-cover group-hover:scale-110 transition"
 />
 
 

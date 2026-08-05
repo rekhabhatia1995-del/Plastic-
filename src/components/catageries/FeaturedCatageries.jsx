@@ -61,7 +61,7 @@ function FeaturedCategories() {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-full h-full object-contain  transition duration-300"
+                  className="w-32 h-32 rounded-full   transition duration-300"
                 />
               </div>
 

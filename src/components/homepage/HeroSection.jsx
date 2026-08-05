@@ -10,7 +10,7 @@ function HeroSection() {
 <div className=" px-6 py-8 grid lg:grid-cols-2 gap-10 items-stretch ">
         <div className="z-10 text-left ">
           <p className="text-lime-500 font-semibold  uppercase text-sm">PREMIUM QUALITY</p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 leading-tight mt-4 tracking-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-950 leading-tight mt-4 tracking-tight">
             Plastic Products for<br />
             <span className="text-lime-500">Every Need</span>
           </h1>

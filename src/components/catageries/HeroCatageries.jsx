@@ -40,7 +40,7 @@ function HeroCatageries() {
              <img
                src={removebg}
                alt="Remove Background"
-               className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] mt-4 h-86 object-contain mb-4"
+               className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] mt-4 h-68 object-contain mb-4"
              />
             </div>
           </div>
@@ -54,7 +54,7 @@ function HeroCatageries() {
       <div className="grid grid-cols-2 lg:grid-cols-4">
 
         {/* Products */}
-        <div className="flex justify-center items-center gap-4  p-4 border-b lg:border-b-0 lg:border-r border-gray-200 hover:bg-gray-50 transition-all duration-300">
+        <div className="flex items-center  justify-center gap-4 p-2 border-b lg:border-b-0 lg:border-r border-gray-200 hover:bg-gray-50 transition-all duration-300">
           <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-lime-100 flex items-center justify-center">
             <FaBoxOpen className="text-lime-600 text-xl sm:text-3xl" />
           </div>

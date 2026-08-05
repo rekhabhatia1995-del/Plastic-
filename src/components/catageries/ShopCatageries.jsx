@@ -117,16 +117,16 @@ function ShopCategories() {
                 </div>
 
                 {/* Content */}
-                <div className="flex-1 ml-1 sm:ml-2">
-                  <h2 className="text-sm  text-left sm:text-base font-bold text-slate-900">
+                <div className="flex-1 ml-1 sm:ml-2 text-left">
+                  <h2 className="text-sm sm:text-base font-bold text-slate-900">
                     {item.name}
                   </h2>
 
-                  <p className="text-gray-500 text-left  text-xs mt-1">
+                  <p className="text-gray-500 text-xs mt-1">
                     {item.products} Products
                   </p>
 
-                  <button className="mt-3 flex  text-left items-center gap-2 text-lime-600 text-sm font-semibold hover:gap-3 transition-all">
+                  <button className="mt-3 flex items-center gap-2 text-lime-600 text-sm font-semibold hover:gap-3 transition-all">
                     Explore
                     <FaArrowRight />
                   </button>

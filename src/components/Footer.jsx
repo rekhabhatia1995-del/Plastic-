@@ -14,11 +14,18 @@ function Footer() {
                         Ocean Plastic Industries is a leading manufacturer & supplier of wide range of plastic products for home, industry & commercial use.
                     </p>
                     <div className="flex gap-2 sm:gap-3 mt-5 flex-wrap">
-                        <div className="bg-blue-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><FaFacebookF /></div>
-                        <div className="bg-pink-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><FaInstagram /></div>
+                        <div className="bg-blue-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><FaFacebookF /> </div>
+                        <a
+                            href="https://www.instagram.com/ocean_plastindustry?utm_source=qr&igsh=ZG9pcHA2d2Q2aDU5"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-pink-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm hover:bg-pink-600 transition"
+                        >
+                            <FaInstagram className="text-white" />
+                        </a>
                         <div className="bg-blue-600 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><FaLinkedinIn /></div>
                         <div className="bg-red-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><FaYoutube /></div>
-                        <div className="bg-green-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><FaWhatsapp /></div>
+                        <div className="bg-green-500 p-1.5 sm:p-2 rounded text-xs sm:text-sm"><a href="https://api.whatsapp.com/message/VYLK7GY4RVJZK1?autoload=1&app_absent=0"><FaWhatsapp /></a></div>
                     </div>
                 </div>
                 <div>
@@ -42,10 +49,11 @@ function Footer() {
                 <div>
                     <h3 className="font-bold text-left text-lg mb-4 text-white">CONTACT US</h3>
                     <div className="space-y-2 text-gray-300 text-sm">
-                        <p className="flex items-start gap-3"><span className="min-w-[1.25rem] mt-2"><FaLocationDot /></span> 123 Industrial Area, Punjab City, India</p>
-                        <p className="flex items-start gap-3"><span className="min-w-[1.25rem] mt-2"><FaPhone /></span> +91 98765 43210</p>
-                        <p className="flex items-start gap-3"><span className="min-w-[1.25rem] mt-2"><FaEnvelope /></span> contact@oceanplastic.com</p>
-                        <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+                        <p className="flex items-start gap-3"><span className="min-w-[1.25rem] mt-2"><FaLocationDot /></span> off. :Plot No 308,Sgahzada Bagh, New Delhi-110035 </p>
+                        <p className="flex items-start gap-3"><span className="min-w-[1.25rem] mt-2"><FaPhone /></span> +919584385703</p>
+                        <p className="flex items-start gap-3"><span className="min-w-[1.25rem] mt-2"><FaEnvelope /></span> oceanplastic81@gmail.com
+                        </p>
+                        <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
                     </div>
                 </div>
             </div>

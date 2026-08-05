@@ -18,7 +18,7 @@ function ProductBanner() {
                 Home &nbsp; {">"} &nbsp; Products
               </p>
 
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0B3B8C] mb-5">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-950 mb-5">
                 Our Products
               </h1>
 
@@ -34,7 +34,7 @@ function ProductBanner() {
              <img
                src={removebg}
                alt="Remove Background"
-className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] h-86 object-contain"
+className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] h-68 object-contain"
              />
             </div>
           </div>
@@ -61,7 +61,7 @@ className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] h-86 object-co
           <div className="flex items-center gap-2 sm:gap-4 p-3 sm:p-4 lg:p-6 border-r border-gray-100">
             <FaTags className="text-2xl sm:text-3xl lg:text-4xl text-lime-500 flex-shrink-0" />
             <div>
-              <h2 className="font-semibold text-blue-900 text-xs sm:text-sm lg:text-base">
+              <h2 className="font-semibold text-blue-950 text-xs sm:text-sm lg:text-base">
                 Best Prices
               </h2>
               <p className="text-blue-950 text-[10px] sm:text-xs lg:text-sm">
@@ -73,7 +73,7 @@ className="w-full max-w-[320px] sm:max-w-[450px] md:max-w-[600px] h-86 object-co
           <div className="flex items-center gap-2 sm:gap-4 p-3 sm:p-4 lg:p-6 border-r border-gray-100">
             <FaTruck className="text-2xl sm:text-3xl lg:text-4xl text-lime-500 flex-shrink-0" />
             <div>
-              <h2 className="font-semibold text-blue-900 text-xs sm:text-sm lg:text-base">
+              <h2 className="font-semibold text-blue-950 text-xs sm:text-sm lg:text-base">
                 Fast Delivery
               </h2>
               <p className="text-blue-950 text-[10px] sm:text-xs lg:text-sm">

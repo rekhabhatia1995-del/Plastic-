@@ -13,7 +13,7 @@ function WhyChoose() {
         <h2 className="text-xl font-bold text-center mb-8 text-blue-950 tracking-tight">Why Choose Ocean Plastic Industries?</h2>
         <div className="grid md:grid-cols-2 gap-10">
           <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
-            <h2 className="text-2xl font-bold mb-6 text-blue-800 tracking-tight text-left">Our Advantages</h2>
+            <h2 className="text-2xl font-bold mb-6 text-blue-950 text-left">Our Advantages</h2>
             <div className="flex flex-col md:flex-row gap-10  md:gap-2 items-center">
               <ul className="space-y-4">
                 <li className="flex gap-3 items-center "><FaShieldAlt className="text-lime-500 text-lg" /> High Quality Plastic Products</li>
@@ -37,7 +37,7 @@ function WhyChoose() {
           </div>
           
           <div className="bg-gray-50 rounded-2xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-center text-blue-900 mb-8">
+            <h2 className="text-3xl font-bold text-center text-blue-950 mb-8">
               Customer Reviews
             </h2>
 
